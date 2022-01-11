@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.header {
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/photo1641651218.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+}
+
+.header .name h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgb(235, 235, 235);
+    font-weight: 400;
+    font-size: 48px;
+    margin-top: 170px;
+    margin-left: 200px;
+}
+.header .name h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: rgb(131,58,180);
+    background: linear-gradient(60deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-clip: text;
+    color: transparent;
+    font-weight: 400;
+    padding-top: 50px;
+    margin-left: 200px;
+}
+.header .button-container {
+    margin-top: 220px;
+    margin-right: 280px;
+}
+.button-container #btn {
+    background-color: #8946A6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+#btn:hover {
+    cursor: pointer;
+    background-color: #733a8b;
+}
+.main-content {
+    width: 100%;
+    height: 1400px;
+    margin: 0 auto;
+    background-color: rgb(254, 254, 254);
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-content.dark-theme {
+    background-color: #121212;
+}
+.main-content .block {
+    width: 700px;
+    margin-left: 180px;
+}
+.main-content .block h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #8946A6;
+    font-weight: 500;
+    font-size: 24px;
+}
+.main-content .block .h3-name.h3-dark-theme {
+    color: #FEC5BB;
+}
+.main-content .block.about-me, .block.education {
+    margin-top: 60px;
+}
+.main-content .block.about-me::before, .block.experience::before, .block.hobbies::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 1443px;
+    background-color: #B762C1;
+    margin-top: 50px;
+}
+.main-content .block.about-me p {
+    font-size: 1.5em;
+}
+.main-content .block.about-me .about-me-text-dark-theme{
+    color: #F8EDEB;
+}
+.main-content .block.about-me p, .block.education p {
+    padding-top: 55px;
+}
+.main-content .block.education #edu-date {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.main-content .block.education #school-name, #college-name {
+    color: #8946A6;
+    font-weight: 600;
+}
+.block.education .edu-date-dark-theme {
+    color: #F8EDEB;
+}
+.block.education #school-name.school-name-dark-theme, #college-name.college-name-dark-theme {
+    color: #FEC5BB;
+}
+.main-content .block.experience #p {
+    padding-top: 55px;
+}
+.main-content .block.experience p {
+    font-weight: 600;
+    font-size: 1.3em;
+    padding-top: 1em;
+}
+.main-content .block.experience li {
+    margin-left: 15px;
+}
+.block.experience .exp-dark-theme {
+    color: #F8EDEB;
+}
+.block.skills .skills-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 590px;
+    height: 250px;
+}
+.skills-container .skill {
+    display: flex;
+    align-items: flex-end;
+    height: 250px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: rgb(235, 235, 235);
+}
+.skills-container .skill.skill-dark-theme {
+    background-color: #242424;
+}
+.html.bar {
+    height: 0;
+    width: 30px;
+    border-radius: 30px;
+    background-color: #F94144;
+    transition: .8s ease-in-out;
+}
+.html.bar.animated {
+    height: 130px;
+}
+.css.bar {
+    height: 0;
+    width: 30px;
+    border-radius: 30px;
+    background-color: #F3722C;
+    transition: .8s ease-in-out;
+}
+.css.bar.animated {
+    height: 115px;
+}
+.python.bar {
+    height: 0;
+    width: 30px;
+    border-radius: 30px;
+    background-color: #F8961E;
+    transition: .8s ease-in-out;
+}
+.python.bar.animated {
+    height: 170px;
+}
+.js.bar {
+    height: 0;
+    width: 30px;
+    border-radius: 30px;
+    background-color: #F9C74F;
+    transition: .8s ease-in-out;
+}
+.js.bar.animated {
+    height: 100px;
+}
+.flirt.bar {
+    height: 0;
+    width: 30px;
+    border-radius: 30px;
+    background-color: #90BE6D;
+    transition: .8s ease-in-out;
+}
+.flirt.bar.animated {
+    height: 270px;
+}
+.market.bar {
+    height: 0;
+    width: 30px;
+    border-radius: 30px;
+    background-color: #43AA8B;
+    transition: .8s ease-in-out;
+}
+.market.bar.animated {
+    height: 225px;
+}
+.design.bar {
+    height: 0;
+    width: 30px;
+    border-radius: 30px;
+    background-color: #577590;
+    transition: .8s ease-in-out;
+}
+.design.bar.animated {
+    height: 190px;
+}
+.block.skills .skills-names {
+    width: 610px;
+    height: 20px;
+}
+.block.skills .skills-names ul {
+    margin: 0 auto;
+    margin-top: 1em;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.skills-names ul li {
+    float: left;
+    font-weight: 500;
+}
+.skills-names .skill-name-dark-theme {
+    color: #F8EDEB;
+}
+.block.hobbies .hobbies-icons-names {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    width: 600px;
+}
+.hobbies-icons-names .drawing-hobby, .quilling-hobby, .yoga-hobby, .singing-hobby {
+    text-align: center;
+}
+.hobbies-icons-names .hobby-name {
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: .1em;
+}
+.hobbies-icons-names .hobby-name-dark-theme {
+    color: #F8EDEB;
+}
+.block.contacts ul {
+    list-style: none;
+    padding-top: 50px;
+}
+.block.contacts li::before {
+    content: attr(data-icon);
+}
+.block.contacts ul li .link{
+    color: #000;
+    line-height: 1.5em;
+    font-size: 18px;
+    text-decoration: none;
+}
+.block.contacts ul li .link-dark-theme {
+    color: #F8EDEB;
+}
+.block.contacts img {
+    height: 128px;
+    position: relative;
+    left: 400px;
+    top: -110px;
+}
+@media screen and (max-width: 1760px) {
+    .main-content .block {
+        width: 500px;
+        margin-left: 180px;
+    }
+    .main-content .block.about-me::before, .block.experience::before, .block.hobbies::before {
+        width: 1380px;
+    }
+    .main-content .block.education, .block.skills, .block.contacts {
+        margin-left: 300px;
+    }
+}
