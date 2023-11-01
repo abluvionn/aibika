@@ -1,5 +1,5 @@
 # aibika
-Config files for my GitHub profile.
+
 1. Project Setup:
 HTML Structure: The project started with creating the basic HTML structure, including the necessary <div> elements to represent different sections of the portfolio, such as about me, education, experience, skills, hobbies, and contacts.
 External Libraries: The project used Google Fonts to apply the Raleway font family to the text elements. This was done by linking the appropriate CSS file in the <head> section of the HTML.
@@ -39,7 +39,7 @@ This function toggles the dark mode theme on the page.
 window.onscroll
 This function is called whenever the user scrolls the page. It animates the skill bars when the user has scrolled past the 400 pixel mark.
 
-You could also add a link to the JavaScript file in the README file so that users can easily view the code.
+
 
 
 
